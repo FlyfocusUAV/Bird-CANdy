@@ -1,10 +1,14 @@
 # Bird-CANdy
+![image](https://img.shields.io/badge/-Open%20Source%20Hardware-0ea95a)
 [![CC BY 4.0][cc-by-shield]][cc-by-sa] 
+
 
 <hr>
 
 PCB designed mainly as a universal [UAVCAN](https://uavcan.org/) node which may also be used as a generic CAN interfacing device.
+
 ![Board top photo](board.jpg)
+
 <br>
 
 # What's UAVCAN Node? #
