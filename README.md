@@ -1,7 +1,9 @@
 # Bird-CANdy
 [![CC BY 4.0][cc-by-shield]][cc-by-sa]
 
-Universal PCB for interfacing with CAN bus
+PCB designed mainly as a universal [UAVCAN](https://uavcan.org/) node which may also be used as a generic CAN interfacing device.
+
+
 
 ![Board top photo](board.jpg)
 
