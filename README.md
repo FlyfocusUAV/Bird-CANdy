@@ -15,6 +15,8 @@ PCB designed mainly as a universal [UAVCAN](https://uavcan.org/) sensor node whi
 UAVCAN Node is a device that speaks UAVCAN protocol which is usually used to exchange data between autopilot (e.g. The Cube or Pixhawk running Ardupilot software)
 and peripherals like GPS, Compass, LEDs, etc.
 
+Since UAVCAN uses CAN inteface it allows for much longer wires than in case of I2C/SPI/UART/etc. and interference free data exchange due to the use of differential pairs.
+
 # Advantages of Bird CANdy PCB #
 PCB was designed with hobbyist, DIYers and researchers in mind.
 * Fully Open Source Hardware for non-commercial use
