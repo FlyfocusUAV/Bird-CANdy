@@ -1,0 +1,683 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12471 9197
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2300 5000 2100 5000
+Text GLabel 2100 5000 0    32   BiDi ~ 0
+I2C1_SDA/UART1_RX/TIM4_CH2
+Wire Wire Line
+	2300 4900 2100 4900
+Text GLabel 2100 4900 0    32   BiDi ~ 0
+I2C1_SCL/UART1_TX/TIM4_CH1
+Wire Wire Line
+	2300 3100 2100 3100
+Text GLabel 2100 3100 0    32   BiDi ~ 0
+SPI1_CLK/ADC_IN5
+Wire Wire Line
+	11200 5300 11200 5200
+Text GLabel 11200 5200 0    32   BiDi ~ 0
+SPI1_CLK/ADC_IN5
+Wire Wire Line
+	2300 3200 2100 3200
+Text GLabel 2100 3200 0    32   BiDi ~ 0
+SPI1_MISO/ADC_IN6
+Wire Wire Line
+	2300 3300 2100 3300
+Text GLabel 2100 3300 0    32   BiDi ~ 0
+SPI1_MOSI/ADC_IN7
+Wire Wire Line
+	2300 5200 2100 5200
+Text GLabel 2100 5200 0    32   BiDi ~ 0
+CAN1_TX
+Wire Wire Line
+	2300 5100 2100 5100
+Text GLabel 2100 5100 0    32   BiDi ~ 0
+CAN1_RX
+Wire Wire Line
+	2300 3700 2100 3700
+Text GLabel 2100 3700 0    32   BiDi ~ 0
+UART6_TX/USB_DM/CAN1_RX
+Wire Wire Line
+	2300 3800 2100 3800
+Text GLabel 2100 3800 0    32   BiDi ~ 0
+UART6_RX/USB_DP/CAN1_TX
+Wire Wire Line
+	2300 4100 2100 4100
+Text GLabel 2100 4100 0    32   BiDi ~ 0
+TIM2_CH1/SPI1_NSS/UART1_TX
+Wire Wire Line
+	2300 4600 2100 4600
+Text GLabel 2100 4600 0    32   BiDi ~ 0
+TIM2_CH2/SPI1_SCK/UART1_RX
+Wire Wire Line
+	2300 4700 2100 4700
+Text GLabel 2100 4700 0    32   BiDi ~ 0
+TIM3_CH1/SPI1_MISO
+Wire Wire Line
+	2300 4800 2100 4800
+Text GLabel 2100 4800 0    32   BiDi ~ 0
+TIM3_CH2/SPI1_MOSI
+Wire Wire Line
+	2300 3900 2100 3900
+Text GLabel 2100 3900 0    32   BiDi ~ 0
+SWDIO
+Wire Wire Line
+	2300 4000 2100 4000
+Text GLabel 2100 4000 0    32   BiDi ~ 0
+SWCLK
+Wire Wire Line
+	4700 3300 4900 3300
+Text GLabel 4900 3300 2    32   BiDi ~ 0
+NRST
+Wire Wire Line
+	2300 2600 2100 2600
+Text GLabel 2100 2600 0    32   BiDi ~ 0
+TIM5_CH1/ADC1_IN0
+Wire Wire Line
+	2300 2700 2100 2700
+Text GLabel 2100 2700 0    32   BiDi ~ 0
+TIM5_CH2/ADC1_IN1
+Wire Wire Line
+	2300 4500 2100 4500
+Text GLabel 2100 4500 0    32   BiDi ~ 0
+CAN1_SILENT
+Wire Wire Line
+	6200 3300 6100 3300
+Wire Wire Line
+	6100 3300 6100 3400
+Wire Wire Line
+	6100 3400 6100 3500
+Wire Wire Line
+	6100 3500 6100 3700
+Wire Wire Line
+	6100 3700 6100 4700
+Wire Wire Line
+	6200 3400 6100 3400
+Wire Wire Line
+	6200 3500 6100 3500
+Wire Wire Line
+	6200 3700 6100 3700
+Connection ~ 6100 3400
+Connection ~ 6100 3500
+Connection ~ 6100 3700
+Text GLabel 6200 3300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5800 4500 5800 4700
+Text GLabel 5800 4500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8600 3900 8700 3900
+Wire Wire Line
+	8700 3900 8700 4700
+Text GLabel 8600 3900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4700 3500 4800 3500
+Wire Wire Line
+	4800 3500 4800 6100
+Text GLabel 4700 3500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6100 5900 6100 6100
+Text GLabel 6100 5900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6700 5900 6700 6100
+Text GLabel 6700 5900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9600 3900 9600 4000
+Wire Wire Line
+	9600 4000 9600 4700
+Wire Wire Line
+	9900 3900 9900 4000
+Wire Wire Line
+	9900 4000 9600 4000
+Wire Wire Line
+	9600 4000 9300 4000
+Wire Wire Line
+	9300 4000 9300 3900
+Connection ~ 9600 4000
+Text GLabel 9600 3900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7500 2000 7500 1700
+Wire Wire Line
+	7500 1700 7500 1600
+Wire Wire Line
+	7500 1600 7400 1600
+Wire Wire Line
+	7400 1700 7500 1700
+Connection ~ 7500 1700
+Text GLabel 7500 2000 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7900 1800 7900 2000
+Text GLabel 7900 1800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5900 1800 5900 2000
+Text GLabel 5900 1800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	11200 5975 11200 6100
+Text GLabel 11200 5975 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6200 4100 5800 4100
+Wire Wire Line
+	5800 4100 5800 4200
+Wire Wire Line
+	8600 3500 8700 3500
+Wire Wire Line
+	8700 3500 8700 3400
+Wire Wire Line
+	8700 3400 8700 3300
+Wire Wire Line
+	8700 3300 8700 2800
+Wire Wire Line
+	8600 3400 8700 3400
+Wire Wire Line
+	8600 3300 8700 3300
+Wire Wire Line
+	8600 3700 8700 3700
+Wire Wire Line
+	8700 3700 8700 3500
+Connection ~ 8700 3400
+Connection ~ 8700 3300
+Connection ~ 8700 3500
+Text GLabel 8600 3500 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	6200 3900 6000 3900
+Wire Wire Line
+	6000 3900 6000 2800
+Text GLabel 6200 3900 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	9600 3600 9600 3500
+Wire Wire Line
+	9600 3500 9600 2800
+Wire Wire Line
+	9900 3600 9900 3500
+Wire Wire Line
+	9900 3500 9600 3500
+Wire Wire Line
+	9600 3500 9300 3500
+Wire Wire Line
+	9300 3500 9300 3600
+Connection ~ 9600 3500
+Text GLabel 9600 3600 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	7400 1300 7900 1300
+Wire Wire Line
+	7900 1300 7900 800 
+Wire Wire Line
+	7900 1500 7900 1300
+Connection ~ 7900 1300
+Text GLabel 7400 1300 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	6000 1400 5900 1400
+Wire Wire Line
+	5900 1400 5900 1300
+Wire Wire Line
+	5900 1300 5900 800 
+Wire Wire Line
+	6000 1300 5900 1300
+Wire Wire Line
+	5900 1500 5900 1400
+Connection ~ 5900 1300
+Connection ~ 5900 1400
+Text GLabel 6000 1400 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	6500 5400 6700 5400
+Wire Wire Line
+	6700 5400 6700 5600
+Wire Wire Line
+	6700 5400 6800 5400
+Connection ~ 6700 5400
+Text Label 6800 5400 0    32   ~ 0
+CRYSTAL_B
+Wire Wire Line
+	4700 3100 4900 3100
+Text Label 4900 3100 0    32   ~ 0
+CRYSTAL_B
+Wire Wire Line
+	6300 5400 6100 5400
+Wire Wire Line
+	6100 5400 6100 5600
+Wire Wire Line
+	6100 5400 6000 5400
+Connection ~ 6100 5400
+Text Label 6000 5400 2    32   ~ 0
+CRYSTAL_A
+Wire Wire Line
+	4700 3000 4900 3000
+Text Label 4900 3000 0    32   ~ 0
+CRYSTAL_A
+Wire Wire Line
+	11200 5575 11200 5500
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:STM32F412CEU6TRUFQFPN-48_7X7X0P55MM-M U1
+U 1 1 94FABF20
+P 2200 2600
+AR Path="/94FABF20" Ref="U1"  Part="1" 
+AR Path="/618A369F/94FABF20" Ref="U1"  Part="1" 
+F 0 "U1" H 2514 2959 69  0000 L BNN
+F 1 "STM32F412CEU6TRUFQFPN-48_7X7X0P55MM-M" H 2489 2859 69  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:UFQFPN-48_7X7X0P55MM-M" H 2200 2600 50  0001 C CNN
+F 3 "" H 2200 2600 50  0001 C CNN
+	1    2200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:STM32F412CEU6TRUFQFPN-48_7X7X0P55MM-M U1
+U 2 1 94FABF2C
+P 6100 3300
+AR Path="/94FABF2C" Ref="U1"  Part="2" 
+AR Path="/618A369F/94FABF2C" Ref="U1"  Part="2" 
+F 0 "U1" H 6414 3659 69  0000 L BNN
+F 1 "STM32F412CEU6TRUFQFPN-48_7X7X0P55MM-M" H 6389 3559 69  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:UFQFPN-48_7X7X0P55MM-M" H 6100 3300 50  0001 C CNN
+F 3 "" H 6100 3300 50  0001 C CNN
+	2    6100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND2
+U 1 1 4877C9E2
+P 6100 4800
+AR Path="/4877C9E2" Ref="#GND2"  Part="1" 
+AR Path="/618A369F/4877C9E2" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 6100 4800 50  0001 C CNN
+F 1 "GND" H 6000 4700 59  0000 L BNN
+F 2 "" H 6100 4800 50  0001 C CNN
+F 3 "" H 6100 4800 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C1
+U 1 1 6D133CC9
+P 5800 4300
+AR Path="/6D133CC9" Ref="C1"  Part="1" 
+AR Path="/618A369F/6D133CC9" Ref="C1"  Part="1" 
+F 0 "C1" H 5860 4315 59  0000 L BNN
+F 1 "2u2" H 5860 4115 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 5800 4300 50  0001 C CNN
+F 3 "" H 5800 4300 50  0001 C CNN
+	1    5800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND3
+U 1 1 21137572
+P 5800 4800
+AR Path="/21137572" Ref="#GND3"  Part="1" 
+AR Path="/618A369F/21137572" Ref="#GND03"  Part="1" 
+F 0 "#GND03" H 5800 4800 50  0001 C CNN
+F 1 "GND" H 5700 4700 59  0000 L BNN
+F 2 "" H 5800 4800 50  0001 C CNN
+F 3 "" H 5800 4800 50  0001 C CNN
+	1    5800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+3V3 #+3V1
+U 1 1 7D977A11
+P 8700 2700
+AR Path="/7D977A11" Ref="#+3V1"  Part="1" 
+AR Path="/618A369F/7D977A11" Ref="#+3V01"  Part="1" 
+F 0 "#+3V01" H 8700 2700 50  0001 C CNN
+F 1 "+3V3" V 8600 2500 59  0000 L BNN
+F 2 "" H 8700 2700 50  0001 C CNN
+F 3 "" H 8700 2700 50  0001 C CNN
+	1    8700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND4
+U 1 1 12C122FD
+P 8700 4800
+AR Path="/12C122FD" Ref="#GND4"  Part="1" 
+AR Path="/618A369F/12C122FD" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 8700 4800 50  0001 C CNN
+F 1 "GND" H 8600 4700 59  0000 L BNN
+F 2 "" H 8700 4800 50  0001 C CNN
+F 3 "" H 8700 4800 50  0001 C CNN
+	1    8700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND8
+U 1 1 E3161DBF
+P 4800 6200
+AR Path="/E3161DBF" Ref="#GND8"  Part="1" 
+AR Path="/618A369F/E3161DBF" Ref="#GND08"  Part="1" 
+F 0 "#GND08" H 4800 6200 50  0001 C CNN
+F 1 "GND" H 4700 6100 59  0000 L BNN
+F 2 "" H 4800 6200 50  0001 C CNN
+F 3 "" H 4800 6200 50  0001 C CNN
+	1    4800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+3V3 #+3V5
+U 1 1 54464806
+P 6000 2700
+AR Path="/54464806" Ref="#+3V5"  Part="1" 
+AR Path="/618A369F/54464806" Ref="#+3V05"  Part="1" 
+F 0 "#+3V05" H 6000 2700 50  0001 C CNN
+F 1 "+3V3" V 5900 2500 59  0000 L BNN
+F 2 "" H 6000 2700 50  0001 C CNN
+F 3 "" H 6000 2700 50  0001 C CNN
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:2X1.6_CRYSTAL U$1
+U 1 1 89E33A62
+P 6400 5400
+AR Path="/89E33A62" Ref="U$1"  Part="1" 
+AR Path="/618A369F/89E33A62" Ref="U$1"  Part="1" 
+F 0 "U$1" H 6500 5440 59  0000 L BNN
+F 1 "2X1.6_CRYSTAL" H 6500 5300 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:OSC_FA-128_16MHZ" H 6400 5400 50  0001 C CNN
+F 3 "" H 6400 5400 50  0001 C CNN
+	1    6400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C2
+U 1 1 D8BE206B
+P 6700 5700
+AR Path="/D8BE206B" Ref="C2"  Part="1" 
+AR Path="/618A369F/D8BE206B" Ref="C2"  Part="1" 
+F 0 "C2" H 6760 5715 59  0000 L BNN
+F 1 "18p" H 6760 5515 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 6700 5700 50  0001 C CNN
+F 3 "" H 6700 5700 50  0001 C CNN
+	1    6700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C3
+U 1 1 9804A973
+P 6100 5700
+AR Path="/9804A973" Ref="C3"  Part="1" 
+AR Path="/618A369F/9804A973" Ref="C3"  Part="1" 
+F 0 "C3" H 6160 5715 59  0000 L BNN
+F 1 "18p" H 6160 5515 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 6100 5700 50  0001 C CNN
+F 3 "" H 6100 5700 50  0001 C CNN
+	1    6100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND9
+U 1 1 FD0A31A1
+P 6700 6200
+AR Path="/FD0A31A1" Ref="#GND9"  Part="1" 
+AR Path="/618A369F/FD0A31A1" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 6700 6200 50  0001 C CNN
+F 1 "GND" H 6600 6100 59  0000 L BNN
+F 2 "" H 6700 6200 50  0001 C CNN
+F 3 "" H 6700 6200 50  0001 C CNN
+	1    6700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND10
+U 1 1 0087CD10
+P 6100 6200
+AR Path="/0087CD10" Ref="#GND10"  Part="1" 
+AR Path="/618A369F/0087CD10" Ref="#GND010"  Part="1" 
+F 0 "#GND010" H 6100 6200 50  0001 C CNN
+F 1 "GND" H 6000 6100 59  0000 L BNN
+F 2 "" H 6100 6200 50  0001 C CNN
+F 3 "" H 6100 6200 50  0001 C CNN
+	1    6100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C4
+U 1 1 65EC1BA2
+P 9300 3700
+AR Path="/65EC1BA2" Ref="C4"  Part="1" 
+AR Path="/618A369F/65EC1BA2" Ref="C4"  Part="1" 
+F 0 "C4" H 9360 3715 59  0000 L BNN
+F 1 "100n" H 9360 3515 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 9300 3700 50  0001 C CNN
+F 3 "" H 9300 3700 50  0001 C CNN
+	1    9300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C5
+U 1 1 4DEA9544
+P 9600 3700
+AR Path="/4DEA9544" Ref="C5"  Part="1" 
+AR Path="/618A369F/4DEA9544" Ref="C5"  Part="1" 
+F 0 "C5" H 9660 3715 59  0000 L BNN
+F 1 "100n" H 9660 3515 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 9600 3700 50  0001 C CNN
+F 3 "" H 9600 3700 50  0001 C CNN
+	1    9600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C6
+U 1 1 8FB104D6
+P 9900 3700
+AR Path="/8FB104D6" Ref="C6"  Part="1" 
+AR Path="/618A369F/8FB104D6" Ref="C6"  Part="1" 
+F 0 "C6" H 9960 3715 59  0000 L BNN
+F 1 "1u" H 9960 3515 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 9900 3700 50  0001 C CNN
+F 3 "" H 9900 3700 50  0001 C CNN
+	1    9900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND13
+U 1 1 85B66688
+P 9600 4800
+AR Path="/85B66688" Ref="#GND13"  Part="1" 
+AR Path="/618A369F/85B66688" Ref="#GND013"  Part="1" 
+F 0 "#GND013" H 9600 4800 50  0001 C CNN
+F 1 "GND" H 9500 4700 59  0000 L BNN
+F 2 "" H 9600 4800 50  0001 C CNN
+F 3 "" H 9600 4800 50  0001 C CNN
+	1    9600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+3V3 #+3V6
+U 1 1 776068A4
+P 9600 2700
+AR Path="/776068A4" Ref="#+3V6"  Part="1" 
+AR Path="/618A369F/776068A4" Ref="#+3V06"  Part="1" 
+F 0 "#+3V06" H 9600 2700 50  0001 C CNN
+F 1 "+3V3" V 9500 2500 59  0000 L BNN
+F 2 "" H 9600 2700 50  0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:TPS74633PQWDRVRQ1 U4
+U 1 1 AA9079E4
+P 6700 1500
+AR Path="/AA9079E4" Ref="U4"  Part="1" 
+AR Path="/618A369F/AA9079E4" Ref="U4"  Part="1" 
+F 0 "U4" H 6200 1839 69  0000 L BNN
+F 1 "TPS74633PQWDRVRQ1" H 6400 1142 69  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:SON65P200X200X80-7N" H 6700 1500 50  0001 C CNN
+F 3 "" H 6700 1500 50  0001 C CNN
+	1    6700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND14
+U 1 1 B9C9B342
+P 7500 2100
+AR Path="/B9C9B342" Ref="#GND14"  Part="1" 
+AR Path="/618A369F/B9C9B342" Ref="#GND014"  Part="1" 
+F 0 "#GND014" H 7500 2100 50  0001 C CNN
+F 1 "GND" H 7400 2000 59  0000 L BNN
+F 2 "" H 7500 2100 50  0001 C CNN
+F 3 "" H 7500 2100 50  0001 C CNN
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+3V3 #+3V8
+U 1 1 7BD3A1AE
+P 7900 700
+AR Path="/7BD3A1AE" Ref="#+3V8"  Part="1" 
+AR Path="/618A369F/7BD3A1AE" Ref="#+3V08"  Part="1" 
+F 0 "#+3V08" H 7900 700 50  0001 C CNN
+F 1 "+3V3" V 7800 500 59  0000 L BNN
+F 2 "" H 7900 700 50  0001 C CNN
+F 3 "" H 7900 700 50  0001 C CNN
+	1    7900 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+5V #P+6
+U 1 1 4B6CF0C8
+P 5900 700
+AR Path="/4B6CF0C8" Ref="#P+6"  Part="1" 
+AR Path="/618A369F/4B6CF0C8" Ref="#P+06"  Part="1" 
+F 0 "#P+06" H 5900 700 50  0001 C CNN
+F 1 "+5V" V 5800 500 59  0000 L BNN
+F 2 "" H 5900 700 50  0001 C CNN
+F 3 "" H 5900 700 50  0001 C CNN
+	1    5900 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C7
+U 1 1 CABD0D62
+P 7900 1600
+AR Path="/CABD0D62" Ref="C7"  Part="1" 
+AR Path="/618A369F/CABD0D62" Ref="C7"  Part="1" 
+F 0 "C7" H 7960 1615 59  0000 L BNN
+F 1 "1u" H 7960 1415 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 7900 1600 50  0001 C CNN
+F 3 "" H 7900 1600 50  0001 C CNN
+	1    7900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:C-EUC0402_RESISTOR_FOOTPRINT C8
+U 1 1 AC0755F5
+P 5900 1600
+AR Path="/AC0755F5" Ref="C8"  Part="1" 
+AR Path="/618A369F/AC0755F5" Ref="C8"  Part="1" 
+F 0 "C8" H 5960 1615 59  0000 L BNN
+F 1 "1u" H 5960 1415 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 5900 1600 50  0001 C CNN
+F 3 "" H 5900 1600 50  0001 C CNN
+	1    5900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND15
+U 1 1 7499CEA7
+P 5900 2100
+AR Path="/7499CEA7" Ref="#GND15"  Part="1" 
+AR Path="/618A369F/7499CEA7" Ref="#GND015"  Part="1" 
+F 0 "#GND015" H 5900 2100 50  0001 C CNN
+F 1 "GND" H 5800 2000 59  0000 L BNN
+F 2 "" H 5900 2100 50  0001 C CNN
+F 3 "" H 5900 2100 50  0001 C CNN
+	1    5900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND16
+U 1 1 12C6E2A1
+P 7900 2100
+AR Path="/12C6E2A1" Ref="#GND16"  Part="1" 
+AR Path="/618A369F/12C6E2A1" Ref="#GND016"  Part="1" 
+F 0 "#GND016" H 7900 2100 50  0001 C CNN
+F 1 "GND" H 7800 2000 59  0000 L BNN
+F 2 "" H 7900 2100 50  0001 C CNN
+F 3 "" H 7900 2100 50  0001 C CNN
+	1    7900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:LED.0402 D1
+U 1 1 C78C3FBD
+P 11200 5400
+AR Path="/C78C3FBD" Ref="D1"  Part="1" 
+AR Path="/618A369F/C78C3FBD" Ref="D1"  Part="1" 
+F 0 "D1" V 11150 5500 34  0000 L TNN
+F 1 "LED.0402" V 11250 5500 34  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:0402.LED" H 11200 5400 50  0001 C CNN
+F 3 "" H 11200 5400 50  0001 C CNN
+	1    11200 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:R-EU_R0402 R4
+U 1 1 7448CC1E
+P 11200 5775
+AR Path="/7448CC1E" Ref="R4"  Part="1" 
+AR Path="/618A369F/7448CC1E" Ref="R4"  Part="1" 
+F 0 "R4" H 11025 5734 59  0000 L BNN
+F 1 "33R" H 11325 5720 59  0000 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 11200 5775 50  0001 C CNN
+F 3 "" H 11200 5775 50  0001 C CNN
+	1    11200 5775
+	0    1    1    0   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND18
+U 1 1 195191A6
+P 11200 6200
+AR Path="/195191A6" Ref="#GND18"  Part="1" 
+AR Path="/618A369F/195191A6" Ref="#GND018"  Part="1" 
+F 0 "#GND018" H 11200 6200 50  0001 C CNN
+F 1 "GND" H 11100 6100 59  0000 L BNN
+F 2 "" H 11200 6200 50  0001 C CNN
+F 3 "" H 11200 6200 50  0001 C CNN
+	1    11200 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 7250 0    90   ~ 0
+Julian Zyromski
+Text Notes 10200 7050 0    90   ~ 0
+MICROCONTROLLER
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:FRAME-A4L #FRAME1
+U 1 1 CC96BE83
+P 900 7300
+AR Path="/CC96BE83" Ref="#FRAME1"  Part="1" 
+AR Path="/618A369F/CC96BE83" Ref="#FRAME1"  Part="1" 
+F 0 "#FRAME1" H 900 7300 50  0001 C CNN
+F 1 "FRAME-A4L" H 900 7300 50  0001 C CNN
+F 2 "" H 900 7300 50  0001 C CNN
+F 3 "" H 900 7300 50  0001 C CNN
+	1    900  7300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

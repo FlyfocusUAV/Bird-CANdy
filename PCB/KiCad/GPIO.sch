@@ -1,0 +1,448 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12471 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5000 3200 5200 3200
+Text GLabel 5200 3200 2    32   BiDi ~ 0
+SPI1_CLK/ADC_IN5
+Wire Wire Line
+	5000 3300 5200 3300
+Text GLabel 5200 3300 2    32   BiDi ~ 0
+SPI1_MISO/ADC_IN6
+Wire Wire Line
+	5000 3400 5200 3400
+Text GLabel 5200 3400 2    32   BiDi ~ 0
+SPI1_MOSI/ADC_IN7
+Wire Wire Line
+	1900 3500 2400 3500
+Text GLabel 2400 3500 2    32   BiDi ~ 0
+SWDIO
+Wire Wire Line
+	1900 3300 2400 3300
+Text GLabel 2400 3300 2    32   BiDi ~ 0
+SWCLK
+Wire Wire Line
+	1900 3600 2400 3600
+Text GLabel 2400 3600 2    32   BiDi ~ 0
+NRST
+Wire Wire Line
+	3400 3100 3600 3100
+Text GLabel 3600 3100 2    32   BiDi ~ 0
+TIM5_CH1/ADC1_IN0
+Wire Wire Line
+	3400 3600 3600 3600
+Text GLabel 3600 3600 2    32   BiDi ~ 0
+TIM5_CH2/ADC1_IN1
+Wire Wire Line
+	5000 3100 5100 3100
+Wire Wire Line
+	5100 3100 5100 4000
+Text GLabel 5000 3100 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1900 3400 2000 3400
+Wire Wire Line
+	2000 3400 2000 4100
+Text GLabel 1900 3400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9500 3800 9600 3800
+Wire Wire Line
+	9600 3800 9600 4100
+Wire Wire Line
+	9500 3700 9600 3700
+Wire Wire Line
+	9600 3700 9600 3800
+Connection ~ 9600 3800
+Text GLabel 9500 3800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1900 3200 2300 3200
+Wire Wire Line
+	2300 3200 2300 2500
+Text GLabel 1900 3200 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	8100 2100 7400 2100
+Wire Wire Line
+	7400 2100 7400 900 
+Wire Wire Line
+	8100 2500 7400 2500
+Wire Wire Line
+	7400 2500 7400 2100
+Connection ~ 7400 2100
+Text GLabel 8100 2100 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	7700 900  7700 1300
+Wire Wire Line
+	7700 1300 7800 1300
+Text GLabel 7700 900  0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	1900 3000 2400 3000
+Text GLabel 2400 3000 2    32   BiDi ~ 0
+CANH
+Wire Wire Line
+	1900 2900 2400 2900
+Text GLabel 2400 2900 2    32   BiDi ~ 0
+CANL
+Wire Wire Line
+	2000 2500 2000 3100
+Wire Wire Line
+	2000 3100 1900 3100
+Text GLabel 2000 2500 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	8300 900  8300 1300
+Wire Wire Line
+	8300 1300 8200 1300
+Text GLabel 8300 900  0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	3400 3200 3600 3200
+Text Label 3600 3200 0    32   ~ 0
+TIM2_CH1/SPI1_NSS/UART1_TX_TRANS
+Wire Wire Line
+	9500 2700 9850 2700
+Text Label 9850 2700 0    32   ~ 0
+TIM2_CH1/SPI1_NSS/UART1_TX_TRANS
+Wire Wire Line
+	3400 3300 3600 3300
+Text Label 3600 3300 0    32   ~ 0
+TIM2_CH2/SPI1_SCK/UART1_RX_TRANS
+Wire Wire Line
+	9500 2800 9850 2800
+Text Label 9850 2800 0    32   ~ 0
+TIM2_CH2/SPI1_SCK/UART1_RX_TRANS
+Wire Wire Line
+	3400 3400 3600 3400
+Text Label 3600 3400 0    32   ~ 0
+TIM3_CH1/SPI1_MISO_TRANS
+Wire Wire Line
+	9500 2900 9850 2900
+Text Label 9850 2900 0    32   ~ 0
+TIM3_CH1/SPI1_MISO_TRANS
+Wire Wire Line
+	3400 3500 3600 3500
+Text Label 3600 3500 0    32   ~ 0
+TIM3_CH2/SPI1_MOSI_TRANS
+Wire Wire Line
+	9500 3000 9850 3000
+Text Label 9850 3000 0    32   ~ 0
+TIM3_CH2/SPI1_MOSI_TRANS
+Wire Wire Line
+	5000 3600 5200 3600
+Text Label 5200 3600 0    40   ~ 0
+UART6_RX/USB_DP/CAN1_TX_TRANS
+Wire Wire Line
+	9500 3100 9850 3100
+Text Label 9850 3100 0    32   ~ 0
+UART6_RX/USB_DP/CAN1_TX_TRANS
+Wire Wire Line
+	5000 3000 5200 3000
+Text Label 5200 3000 0    40   ~ 0
+I2C1_SDA/UART1_RX/TIM4_CH2_TRANS
+Wire Wire Line
+	9500 3300 9600 3300
+Wire Wire Line
+	9600 3300 9850 3300
+Wire Wire Line
+	9600 2525 9600 3300
+Text Label 9850 3300 0    32   ~ 0
+I2C1_SDA/UART1_RX/TIM4_CH2_TRANS
+Connection ~ 9600 3300
+Wire Wire Line
+	5000 2900 5200 2900
+Text Label 5200 2900 0    40   ~ 0
+I2C1_SCL/UART1_TX/TIM4_CH1_TRANS
+Wire Wire Line
+	9500 3400 9750 3400
+Wire Wire Line
+	9750 3400 9850 3400
+Wire Wire Line
+	9750 2525 9750 3400
+Text Label 9850 3400 0    32   ~ 0
+I2C1_SCL/UART1_TX/TIM4_CH1_TRANS
+Connection ~ 9750 3400
+Wire Wire Line
+	5000 3500 5200 3500
+Text Label 5200 3500 0    40   ~ 0
+UART6_TX/USB_DM/CAN1_RX_TRANS
+Wire Wire Line
+	9500 3200 9850 3200
+Text Label 9850 3200 0    32   ~ 0
+UART6_TX/USB_DM/CAN1_RX_TRANS
+Wire Wire Line
+	8100 3300 7900 3300
+Text GLabel 7900 3300 0    32   BiDi ~ 0
+I2C1_SDA/UART1_RX/TIM4_CH2
+Wire Wire Line
+	8100 3400 7900 3400
+Text GLabel 7900 3400 0    32   BiDi ~ 0
+I2C1_SCL/UART1_TX/TIM4_CH1
+Wire Wire Line
+	8100 3200 7900 3200
+Text GLabel 7900 3200 0    32   BiDi ~ 0
+UART6_TX/USB_DM/CAN1_RX
+Wire Wire Line
+	8100 3100 7900 3100
+Text GLabel 7900 3100 0    32   BiDi ~ 0
+UART6_RX/USB_DP/CAN1_TX
+Wire Wire Line
+	8100 2700 7900 2700
+Text GLabel 7900 2700 0    32   BiDi ~ 0
+TIM2_CH1/SPI1_NSS/UART1_TX
+Wire Wire Line
+	8100 2800 7900 2800
+Text GLabel 7900 2800 0    32   BiDi ~ 0
+TIM2_CH2/SPI1_SCK/UART1_RX
+Wire Wire Line
+	8100 2900 7900 2900
+Text GLabel 7900 2900 0    32   BiDi ~ 0
+TIM3_CH1/SPI1_MISO
+Wire Wire Line
+	8100 3000 7900 3000
+Text GLabel 7900 3000 0    32   BiDi ~ 0
+TIM3_CH2/SPI1_MOSI
+Wire Wire Line
+	8000 1500 8000 1700
+Wire Wire Line
+	8000 1700 8000 2200
+Wire Wire Line
+	8000 2200 8100 2200
+Wire Wire Line
+	9750 2125 9750 1700
+Wire Wire Line
+	9750 1700 9600 1700
+Wire Wire Line
+	9600 1700 8000 1700
+Wire Wire Line
+	9600 2125 9600 1700
+Connection ~ 8000 1700
+Connection ~ 9600 1700
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:MA08-1 SV1
+U 1 1 1FCB83CC
+P 1600 3200
+AR Path="/1FCB83CC" Ref="SV1"  Part="1" 
+AR Path="/618A3953/1FCB83CC" Ref="SV1"  Part="1" 
+F 0 "SV1" H 1550 3730 59  0001 L BNN
+F 1 "MA08-1" H 1550 2700 59  0001 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:MA08-1" H 1600 3200 50  0001 C CNN
+F 3 "" H 1600 3200 50  0001 C CNN
+	1    1600 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:MA08-1 SV2
+U 1 1 3E7D897A
+P 4700 3200
+AR Path="/3E7D897A" Ref="SV2"  Part="1" 
+AR Path="/618A3953/3E7D897A" Ref="SV2"  Part="1" 
+F 0 "SV2" H 4650 3730 59  0001 L BNN
+F 1 "MA08-1" H 4650 2700 59  0001 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:MA08-1" H 4700 3200 50  0001 C CNN
+F 3 "" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:MA06-1 SV3
+U 1 1 39D8666C
+P 3100 3400
+AR Path="/39D8666C" Ref="SV3"  Part="1" 
+AR Path="/618A3953/39D8666C" Ref="SV3"  Part="1" 
+F 0 "SV3" H 3050 3730 59  0001 L BNN
+F 1 "MA06-1" H 3050 2900 59  0001 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:MA06-1" H 3100 3400 50  0001 C CNN
+F 3 "" H 3100 3400 50  0001 C CNN
+	1    3100 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND5
+U 1 1 5B6A58CA
+P 5100 4100
+AR Path="/5B6A58CA" Ref="#GND5"  Part="1" 
+AR Path="/618A3953/5B6A58CA" Ref="#GND05"  Part="1" 
+F 0 "#GND05" H 5100 4100 50  0001 C CNN
+F 1 "GND" H 5000 4000 59  0001 L BNN
+F 2 "" H 5100 4100 50  0001 C CNN
+F 3 "" H 5100 4100 50  0001 C CNN
+	1    5100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+5V #P+1
+U 1 1 6A081B6E
+P 2000 2400
+AR Path="/6A081B6E" Ref="#P+1"  Part="1" 
+AR Path="/618A3953/6A081B6E" Ref="#P+01"  Part="1" 
+F 0 "#P+01" H 2000 2400 50  0001 C CNN
+F 1 "+5V" V 1900 2200 59  0001 L BNN
+F 2 "" H 2000 2400 50  0001 C CNN
+F 3 "" H 2000 2400 50  0001 C CNN
+	1    2000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+3V3 #+3V2
+U 1 1 816AD438
+P 2300 2400
+AR Path="/816AD438" Ref="#+3V2"  Part="1" 
+AR Path="/618A3953/816AD438" Ref="#+3V02"  Part="1" 
+F 0 "#+3V02" H 2300 2400 50  0001 C CNN
+F 1 "+3V3" V 2200 2200 59  0001 L BNN
+F 2 "" H 2300 2400 50  0001 C CNN
+F 3 "" H 2300 2400 50  0001 C CNN
+	1    2300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND6
+U 1 1 F6847280
+P 2000 4200
+AR Path="/F6847280" Ref="#GND6"  Part="1" 
+AR Path="/618A3953/F6847280" Ref="#GND06"  Part="1" 
+F 0 "#GND06" H 2000 4200 50  0001 C CNN
+F 1 "GND" H 1900 4100 59  0001 L BNN
+F 2 "" H 2000 4200 50  0001 C CNN
+F 3 "" H 2000 4200 50  0001 C CNN
+	1    2000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:TXS0108ERGYR U3
+U 1 1 C6A83FC2
+P 8800 2900
+AR Path="/C6A83FC2" Ref="U3"  Part="1" 
+AR Path="/618A3953/C6A83FC2" Ref="U3"  Part="1" 
+F 0 "U3" H 8300 3839 59  0001 L BNN
+F 1 "TXS0108ERGYR" H 8300 1800 59  0001 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:IC_TXS0108ERGYR" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0001 C CNN
+	1    8800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+3V3 #+3V4
+U 1 1 3511C8A8
+P 7400 800
+AR Path="/3511C8A8" Ref="#+3V4"  Part="1" 
+AR Path="/618A3953/3511C8A8" Ref="#+3V04"  Part="1" 
+F 0 "#+3V04" H 7400 800 50  0001 C CNN
+F 1 "+3V3" V 7300 600 59  0001 L BNN
+F 2 "" H 7400 800 50  0001 C CNN
+F 3 "" H 7400 800 50  0001 C CNN
+	1    7400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+5V #P+3
+U 1 1 48C2C5DB
+P 8300 800
+AR Path="/48C2C5DB" Ref="#P+3"  Part="1" 
+AR Path="/618A3953/48C2C5DB" Ref="#P+03"  Part="1" 
+F 0 "#P+03" H 8300 800 50  0001 C CNN
+F 1 "+5V" V 8200 600 59  0001 L BNN
+F 2 "" H 8300 800 50  0001 C CNN
+F 3 "" H 8300 800 50  0001 C CNN
+	1    8300 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:GND #GND7
+U 1 1 C2693486
+P 9600 4200
+AR Path="/C2693486" Ref="#GND7"  Part="1" 
+AR Path="/618A3953/C2693486" Ref="#GND07"  Part="1" 
+F 0 "#GND07" H 9600 4200 50  0001 C CNN
+F 1 "GND" H 9500 4100 59  0001 L BNN
+F 2 "" H 9600 4200 50  0001 C CNN
+F 3 "" H 9600 4200 50  0001 C CNN
+	1    9600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:SJ2W SJ2
+U 1 1 2B525D20
+P 8000 1300
+AR Path="/2B525D20" Ref="SJ2"  Part="1" 
+AR Path="/618A3953/2B525D20" Ref="SJ2"  Part="1" 
+F 0 "SJ2" H 8100 1315 59  0001 L BNN
+F 1 "SJ2W" H 8100 1225 59  0001 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:SJ_2" H 8000 1300 50  0001 C CNN
+F 3 "" H 8000 1300 50  0001 C CNN
+	1    8000 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:+3V3 #+3V7
+U 1 1 A67731B0
+P 7700 800
+AR Path="/A67731B0" Ref="#+3V7"  Part="1" 
+AR Path="/618A3953/A67731B0" Ref="#+3V07"  Part="1" 
+F 0 "#+3V07" H 7700 800 50  0001 C CNN
+F 1 "+3V3" V 7600 600 59  0001 L BNN
+F 2 "" H 7700 800 50  0001 C CNN
+F 3 "" H 7700 800 50  0001 C CNN
+	1    7700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:R-EU_R0402 R2
+U 1 1 086AC66B
+P 9600 2325
+AR Path="/086AC66B" Ref="R2"  Part="1" 
+AR Path="/618A3953/086AC66B" Ref="R2"  Part="1" 
+F 0 "R2" H 9450 2384 59  0001 L BNN
+F 1 "4k7" H 9450 2195 59  0001 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 9600 2325 50  0001 C CNN
+F 3 "" H 9600 2325 50  0001 C CNN
+	1    9600 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:R-EU_R0402 R3
+U 1 1 2D3ECB98
+P 9750 2325
+AR Path="/2D3ECB98" Ref="R3"  Part="1" 
+AR Path="/618A3953/2D3ECB98" Ref="R3"  Part="1" 
+F 0 "R3" H 9600 2384 59  0001 L BNN
+F 1 "4k7" H 9600 2195 59  0001 L BNN
+F 2 "Flyfocus_Bird_CANdy_V1.0:R0402" H 9750 2325 50  0001 C CNN
+F 3 "" H 9750 2325 50  0001 C CNN
+	1    9750 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Flyfocus_Bird_CANdy_V1.0-eagle-import:FRAME-A4L #FRAME3
+U 1 1 5B1AAE1E
+P 900 6300
+AR Path="/5B1AAE1E" Ref="#FRAME3"  Part="1" 
+AR Path="/618A3953/5B1AAE1E" Ref="#FRAME3"  Part="1" 
+F 0 "#FRAME3" H 900 6300 50  0001 C CNN
+F 1 "FRAME-A4L" H 900 6300 50  0001 C CNN
+F 2 "" H 900 6300 50  0001 C CNN
+F 3 "" H 900 6300 50  0001 C CNN
+	1    900  6300
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 6250 0    90   ~ 0
+Julian Zyromski
+Text Notes 10550 6050 0    90   ~ 0
+GPIO
+$EndSCHEMATC
